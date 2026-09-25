@@ -1,0 +1,35 @@
+[2026-09-26 04:00:04] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 也失败：URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+抽样 375 个 IP 测延迟...
+延迟可用 374 个
+取延迟最好的 80 个查定位...
+定位成功 44 个，其中定位美国 44 个
+取前 40 个（美国优先）测下载速度...
+速度可用 20 个
+---- 失败诊断（前几条）----
+  [sanity-domain] speed.cloudflare.com -> URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+  [trace] 103.31.6.51 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 198.41.144.224 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 172.70.77.38 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 104.26.7.189 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 197.234.241.128 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 108.162.198.12 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 103.31.6.248 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+写入 preferred_ips.txt，共 12 个优选 IP
+  141.101.112.216 [US] 延迟 60ms  速度 3418kbps
+  131.0.72.87 [US] 延迟 60ms  速度 3554kbps
+  108.162.231.239 [US] 延迟 60ms  速度 3477kbps
+  190.93.249.200 [US] 延迟 60ms  速度 3617kbps
+  131.0.72.32 [US] 延迟 60ms  速度 3495kbps
+  188.114.108.244 [US] 延迟 60ms  速度 3237kbps
+  131.0.72.24 [US] 延迟 60ms  速度 3440kbps
+  198.41.168.35 [US] 延迟 60ms  速度 3619kbps
+  190.93.251.53 [US] 延迟 60ms  速度 3156kbps
+  141.101.83.248 [US] 延迟 60ms  速度 3653kbps
+  104.27.223.46 [US] 延迟 60ms  速度 3247kbps
+  103.21.244.140 [US] 延迟 61ms  速度 3215kbps
+[2026-09-26 04:00:18] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
