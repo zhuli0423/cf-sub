@@ -1,0 +1,322 @@
+{
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF01-CN",
+      "server": "173.245.49.103",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF02-CN",
+      "server": "104.25.147.223",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF03-CN",
+      "server": "103.31.4.16",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF04-CN",
+      "server": "162.159.16.130",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF05-CN",
+      "server": "104.25.102.218",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF06-CN",
+      "server": "103.21.244.92",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF07-CN",
+      "server": "104.19.85.205",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF08-CN",
+      "server": "190.93.245.77",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF09-CN",
+      "server": "190.93.245.195",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF10-CN",
+      "server": "104.27.93.218",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF11-CN",
+      "server": "188.114.96.92",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "CF优选-CF12-CN",
+      "server": "104.21.238.211",
+      "server_port": 443,
+      "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
+      "tls": {
+        "enabled": true,
+        "server_name": "zhulishcn.us.ci",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.US.CMLiussss.Net",
+        "headers": {
+          "Host": "zhulishcn.us.ci"
+        }
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "🚀 CF优选",
+      "outbounds": [
+        "CF优选-CF01-CN",
+        "CF优选-CF02-CN",
+        "CF优选-CF03-CN",
+        "CF优选-CF04-CN",
+        "CF优选-CF05-CN",
+        "CF优选-CF06-CN",
+        "CF优选-CF07-CN",
+        "CF优选-CF08-CN",
+        "CF优选-CF09-CN",
+        "CF优选-CF10-CN",
+        "CF优选-CF11-CN",
+        "CF优选-CF12-CN"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": [
+          "geosite-cn",
+          "geoip-cn"
+        ],
+        "outbound": "DIRECT"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "🚀 CF优选"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "🚀 CF优选"
+      }
+    ],
+    "final": "🚀 CF优选",
+    "auto_detect_interface": true
+  }
+}
