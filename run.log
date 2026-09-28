@@ -71,3 +71,87 @@ fatal: the remote end hung up unexpectedly
   103.22.203.194 [US] 延迟 6ms  速度 3639kbps
 [2026-09-27 04:00:36] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-09-27 04:00:38] 已推送到 GitHub
+[2026-09-27 04:00:38] 完成
+[2026-09-28 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1426, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1069, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1338, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christopher/cf-preferred/speedtest.py", line 219, in <module>
+    main()
+  File "/Users/christopher/cf-preferred/speedtest.py", line 160, in main
+    cidrs = fetch_cidrs()
+  File "/Users/christopher/cf-preferred/speedtest.py", line 34, in fetch_cidrs
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 54] Connection reset by peer>
+[2026-09-29 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 50 个，其中定位美国 0 个
+取前 40 个（美国优先）测下载速度...
+速度可用 26 个
+---- 失败诊断（前几条）----
+  [trace] 131.0.73.68 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 103.22.203.130 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 104.20.78.36 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 162.159.86.140 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 173.245.53.31 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 103.31.6.196 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 190.93.240.20 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 103.21.245.11 -> timeout: _ssl.c:1112: The handshake operation timed out
+写入 preferred_ips.txt，共 12 个优选 IP
+  131.0.73.68 [??] 延迟 5ms  速度 3831kbps
+  173.245.53.31 [??] 延迟 5ms  速度 3258kbps
+  108.162.228.247 [HK] 延迟 5ms  速度 3797kbps
+  103.22.203.130 [??] 延迟 6ms  速度 4055kbps
+  131.0.74.212 [HK] 延迟 6ms  速度 3287kbps
+  108.162.215.250 [HK] 延迟 6ms  速度 3437kbps
+  172.64.228.115 [HK] 延迟 6ms  速度 3986kbps
+  173.245.60.141 [HK] 延迟 6ms  速度 4083kbps
+  197.234.243.85 [HK] 延迟 6ms  速度 3772kbps
+  173.245.54.226 [??] 延迟 6ms  速度 3758kbps
+  190.93.247.12 [HK] 延迟 6ms  速度 3757kbps
+  190.93.240.20 [??] 延迟 7ms  速度 3808kbps
+[2026-09-29 04:00:40] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
