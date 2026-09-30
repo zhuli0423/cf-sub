@@ -155,3 +155,87 @@ urllib.error.URLError: <urlopen error [Errno 54] Connection reset by peer>
   190.93.240.20 [??] 延迟 7ms  速度 3808kbps
 [2026-09-29 04:00:40] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-09-29 04:00:44] 已推送到 GitHub
+[2026-09-29 04:00:44] 完成
+[2026-09-30 04:00:04] 开始测速...
+获取 Cloudflare 官方 IP 段...
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1012, in _send_output
+    self.send(msg)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 952, in send
+    self.connect()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/http/client.py", line 1426, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1069, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1338, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/christopher/cf-preferred/speedtest.py", line 219, in <module>
+    main()
+  File "/Users/christopher/cf-preferred/speedtest.py", line 160, in main
+    cidrs = fetch_cidrs()
+  File "/Users/christopher/cf-preferred/speedtest.py", line 34, in fetch_cidrs
+    with urllib.request.urlopen(req, timeout=15) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+[2026-10-01 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 也失败：URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 73 个，其中定位美国 73 个
+取前 40 个（美国优先）测下载速度...
+速度可用 40 个
+---- 失败诊断（前几条）----
+  [sanity-domain] speed.cloudflare.com -> URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+  [trace] 162.158.62.39 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 104.22.33.148 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 162.158.124.223 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 172.69.0.122 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 172.66.220.180 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 104.22.110.214 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 162.158.20.67 -> timeout: _ssl.c:1112: The handshake operation timed out
+写入 preferred_ips.txt，共 12 个优选 IP
+  104.26.119.34 [US] 延迟 4ms  速度 3502kbps
+  104.24.26.69 [US] 延迟 5ms  速度 2456kbps
+  173.245.52.213 [US] 延迟 5ms  速度 2445kbps
+  198.41.144.143 [US] 延迟 5ms  速度 1920kbps
+  108.162.234.179 [US] 延迟 5ms  速度 3427kbps
+  104.26.177.23 [US] 延迟 5ms  速度 3574kbps
+  103.21.245.82 [US] 延迟 5ms  速度 1932kbps
+  190.93.255.138 [US] 延迟 5ms  速度 3443kbps
+  104.19.252.242 [US] 延迟 5ms  速度 1880kbps
+  104.17.107.58 [US] 延迟 6ms  速度 1882kbps
+  172.67.133.181 [US] 延迟 7ms  速度 2490kbps
+  162.159.173.154 [US] 延迟 7ms  速度 3513kbps
+[2026-10-01 04:00:28] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
