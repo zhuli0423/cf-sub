@@ -6,8 +6,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF01-US",
-      "server": "104.25.209.56",
+      "tag": "CF优选-CF01-CN",
+      "server": "103.31.4.48",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -28,8 +28,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF02-US",
-      "server": "197.234.240.179",
+      "tag": "CF优选-CF02-CN",
+      "server": "103.31.4.47",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -50,8 +50,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF03-US",
-      "server": "173.245.55.198",
+      "tag": "CF优选-CF03-CN",
+      "server": "108.162.198.132",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -72,8 +72,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF04-US",
-      "server": "103.31.5.179",
+      "tag": "CF优选-CF04-CN",
+      "server": "103.31.4.201",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -94,8 +94,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF05-US",
-      "server": "104.21.65.181",
+      "tag": "CF优选-CF05-CN",
+      "server": "103.31.4.208",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -116,8 +116,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF06-US",
-      "server": "188.114.98.138",
+      "tag": "CF优选-CF06-CN",
+      "server": "104.18.51.60",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -138,8 +138,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF07-US",
-      "server": "197.234.242.251",
+      "tag": "CF优选-CF07-CN",
+      "server": "172.66.192.101",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -160,8 +160,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF08-US",
-      "server": "173.245.61.119",
+      "tag": "CF优选-CF08-CN",
+      "server": "103.31.4.75",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -182,8 +182,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF09-US",
-      "server": "173.245.48.254",
+      "tag": "CF优选-CF09-CN",
+      "server": "104.19.28.106",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -204,8 +204,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF10-US",
-      "server": "103.22.200.151",
+      "tag": "CF优选-CF10-CN",
+      "server": "104.16.88.189",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -226,8 +226,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF11-US",
-      "server": "103.22.200.20",
+      "tag": "CF优选-CF11-CN",
+      "server": "162.159.91.158",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -248,8 +248,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF12-US",
-      "server": "188.114.103.197",
+      "tag": "CF优选-CF12-CN",
+      "server": "190.93.244.215",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -272,18 +272,18 @@
       "type": "urltest",
       "tag": "🚀 CF优选",
       "outbounds": [
-        "CF优选-CF01-US",
-        "CF优选-CF02-US",
-        "CF优选-CF03-US",
-        "CF优选-CF04-US",
-        "CF优选-CF05-US",
-        "CF优选-CF06-US",
-        "CF优选-CF07-US",
-        "CF优选-CF08-US",
-        "CF优选-CF09-US",
-        "CF优选-CF10-US",
-        "CF优选-CF11-US",
-        "CF优选-CF12-US"
+        "CF优选-CF01-CN",
+        "CF优选-CF02-CN",
+        "CF优选-CF03-CN",
+        "CF优选-CF04-CN",
+        "CF优选-CF05-CN",
+        "CF优选-CF06-CN",
+        "CF优选-CF07-CN",
+        "CF优选-CF08-CN",
+        "CF优选-CF09-CN",
+        "CF优选-CF10-CN",
+        "CF优选-CF11-CN",
+        "CF优选-CF12-CN"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",

@@ -1,7 +1,7 @@
 proxies:
-  - name: CF优选-CF01-US
+  - name: CF优选-CF01-CN
     type: vless
-    server: 104.25.209.56
+    server: 103.31.4.48
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -12,9 +12,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF02-US
+  - name: CF优选-CF02-CN
     type: vless
-    server: 197.234.240.179
+    server: 103.31.4.47
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -25,9 +25,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF03-US
+  - name: CF优选-CF03-CN
     type: vless
-    server: 173.245.55.198
+    server: 108.162.198.132
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -38,9 +38,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF04-US
+  - name: CF优选-CF04-CN
     type: vless
-    server: 103.31.5.179
+    server: 103.31.4.201
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -51,9 +51,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF05-US
+  - name: CF优选-CF05-CN
     type: vless
-    server: 104.21.65.181
+    server: 103.31.4.208
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -64,9 +64,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF06-US
+  - name: CF优选-CF06-CN
     type: vless
-    server: 188.114.98.138
+    server: 104.18.51.60
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -77,9 +77,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF07-US
+  - name: CF优选-CF07-CN
     type: vless
-    server: 197.234.242.251
+    server: 172.66.192.101
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -90,9 +90,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF08-US
+  - name: CF优选-CF08-CN
     type: vless
-    server: 173.245.61.119
+    server: 103.31.4.75
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -103,9 +103,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF09-US
+  - name: CF优选-CF09-CN
     type: vless
-    server: 173.245.48.254
+    server: 104.19.28.106
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -116,9 +116,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF10-US
+  - name: CF优选-CF10-CN
     type: vless
-    server: 103.22.200.151
+    server: 104.16.88.189
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -129,9 +129,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF11-US
+  - name: CF优选-CF11-CN
     type: vless
-    server: 103.22.200.20
+    server: 162.159.91.158
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -142,9 +142,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF12-US
+  - name: CF优选-CF12-CN
     type: vless
-    server: 188.114.103.197
+    server: 190.93.244.215
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -163,18 +163,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - CF优选-CF01-US
-      - CF优选-CF02-US
-      - CF优选-CF03-US
-      - CF优选-CF04-US
-      - CF优选-CF05-US
-      - CF优选-CF06-US
-      - CF优选-CF07-US
-      - CF优选-CF08-US
-      - CF优选-CF09-US
-      - CF优选-CF10-US
-      - CF优选-CF11-US
-      - CF优选-CF12-US
+      - CF优选-CF01-CN
+      - CF优选-CF02-CN
+      - CF优选-CF03-CN
+      - CF优选-CF04-CN
+      - CF优选-CF05-CN
+      - CF优选-CF06-CN
+      - CF优选-CF07-CN
+      - CF优选-CF08-CN
+      - CF优选-CF09-CN
+      - CF优选-CF10-CN
+      - CF优选-CF11-CN
+      - CF优选-CF12-CN
 
 # 分流：国内直连，其他走代理
 rule-providers:
