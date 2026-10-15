@@ -795,3 +795,33 @@ urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ss
   197.234.242.142 [US] 延迟 6ms  速度 4420kbps
 [2026-10-15 04:00:19] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-10-15 04:00:22] 已推送到 GitHub
+[2026-10-15 04:00:22] 完成
+[2026-10-16 04:00:04] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 79 个，其中定位美国 79 个
+取前 40 个（美国优先）测下载速度...
+速度可用 39 个
+---- 失败诊断（前几条）----
+  [speed] 190.93.250.195 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+写入 preferred_ips.txt，共 12 个优选 IP
+  188.114.107.130 [US] 延迟 4ms  速度 4090kbps
+  198.41.248.103 [US] 延迟 4ms  速度 4404kbps
+  172.69.170.36 [US] 延迟 6ms  速度 4405kbps
+  188.114.101.68 [US] 延迟 6ms  速度 4315kbps
+  104.16.81.85 [US] 延迟 6ms  速度 4377kbps
+  173.245.62.167 [US] 延迟 6ms  速度 3466kbps
+  162.158.44.19 [US] 延迟 6ms  速度 3598kbps
+  103.31.6.172 [US] 延迟 6ms  速度 4095kbps
+  162.159.97.223 [US] 延迟 6ms  速度 4484kbps
+  198.41.246.67 [US] 延迟 6ms  速度 4339kbps
+  173.245.56.238 [US] 延迟 6ms  速度 4412kbps
+  197.234.242.175 [US] 延迟 6ms  速度 4600kbps
+[2026-10-16 04:00:23] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
