@@ -1052,3 +1052,34 @@ urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ss
   103.21.244.20 [US] 延迟 3ms  速度 4175kbps
 [2026-10-24 04:00:20] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-10-24 04:00:22] 已推送到 GitHub
+[2026-10-24 04:00:22] 完成
+[2026-10-25 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 78 个，其中定位美国 78 个
+取前 40 个（美国优先）测下载速度...
+速度可用 40 个
+---- 失败诊断（前几条）----
+  [trace] 104.25.140.90 -> SSLError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1129)
+  [trace] 103.21.244.9 -> SSLError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1129)
+写入 preferred_ips.txt，共 12 个优选 IP
+  108.162.241.204 [US] 延迟 1ms  速度 5198kbps
+  198.41.252.57 [US] 延迟 1ms  速度 4713kbps
+  172.64.153.195 [US] 延迟 2ms  速度 5061kbps
+  131.0.75.161 [US] 延迟 2ms  速度 5440kbps
+  104.26.218.117 [US] 延迟 2ms  速度 5117kbps
+  190.93.244.194 [US] 延迟 2ms  速度 4759kbps
+  103.22.200.227 [US] 延迟 3ms  速度 5235kbps
+  104.21.225.223 [US] 延迟 3ms  速度 5066kbps
+  188.114.107.62 [US] 延迟 3ms  速度 4959kbps
+  103.21.245.106 [US] 延迟 3ms  速度 4888kbps
+  198.41.153.65 [US] 延迟 3ms  速度 5018kbps
+  197.234.240.98 [US] 延迟 3ms  速度 4936kbps
+[2026-10-25 04:00:15] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
