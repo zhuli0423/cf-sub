@@ -1596,3 +1596,40 @@ urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ss
   162.158.171.193 [HK] 延迟 4ms  速度 4098kbps
 [2026-11-07 04:00:16] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-11-07 04:00:19] 已推送到 GitHub
+[2026-11-07 04:00:19] 完成
+[2026-11-08 04:00:04] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 57 个，其中定位美国 2 个
+取前 40 个（美国优先）测下载速度...
+速度可用 31 个
+---- 失败诊断（前几条）----
+  [trace] 108.162.195.93 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 198.41.178.243 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 172.66.59.8 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 104.19.217.242 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 131.0.72.189 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 103.21.245.170 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 198.41.183.64 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+  [trace] 190.93.247.141 -> SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+写入 preferred_ips.txt，共 12 个优选 IP
+  108.162.199.105 [US] 延迟 5ms  速度 4123kbps
+  103.21.247.52 [US] 延迟 6ms  速度 4101kbps
+  108.162.195.93 [??] 延迟 2ms  速度 4224kbps
+  197.234.240.73 [HK] 延迟 2ms  速度 4193kbps
+  104.19.217.242 [??] 延迟 2ms  速度 4122kbps
+  190.93.245.56 [HK] 延迟 3ms  速度 4178kbps
+  103.31.4.176 [??] 延迟 3ms  速度 2784kbps
+  103.21.245.201 [HK] 延迟 3ms  速度 4074kbps
+  103.21.245.213 [HK] 延迟 4ms  速度 3850kbps
+  198.41.170.222 [??] 延迟 4ms  速度 4132kbps
+  104.19.240.151 [??] 延迟 4ms  速度 4167kbps
+  198.41.132.196 [HK] 延迟 4ms  速度 3950kbps
+[2026-11-08 04:00:23] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
