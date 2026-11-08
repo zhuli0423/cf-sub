@@ -1,7 +1,7 @@
 proxies:
   - name: CF优选-CF01-US
     type: vless
-    server: 108.162.199.105
+    server: 190.93.242.19
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -14,7 +14,7 @@ proxies:
         Host: zhulishcn.us.ci
   - name: CF优选-CF02-US
     type: vless
-    server: 103.21.247.52
+    server: 103.22.202.188
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -25,9 +25,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF03-??
+  - name: CF优选-CF03-US
     type: vless
-    server: 108.162.195.93
+    server: 108.162.234.169
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -38,9 +38,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF04-HK
+  - name: CF优选-CF04-US
     type: vless
-    server: 197.234.240.73
+    server: 104.16.127.47
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -51,9 +51,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF05-??
+  - name: CF优选-CF05-US
     type: vless
-    server: 104.19.217.242
+    server: 198.41.255.33
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -64,9 +64,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF06-HK
+  - name: CF优选-CF06-US
     type: vless
-    server: 190.93.245.56
+    server: 162.158.132.15
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -77,9 +77,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF07-??
+  - name: CF优选-CF07-US
     type: vless
-    server: 103.31.4.176
+    server: 103.22.200.177
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -90,9 +90,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF08-HK
+  - name: CF优选-CF08-US
     type: vless
-    server: 103.21.245.201
+    server: 198.41.231.223
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -105,7 +105,7 @@ proxies:
         Host: zhulishcn.us.ci
   - name: CF优选-CF09-HK
     type: vless
-    server: 103.21.245.213
+    server: 197.234.241.143
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -116,9 +116,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF10-??
+  - name: CF优选-CF10-HK
     type: vless
-    server: 198.41.170.222
+    server: 172.68.239.74
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -129,9 +129,9 @@ proxies:
       path: /proxyip=ProxyIP.US.CMLiussss.Net
       headers:
         Host: zhulishcn.us.ci
-  - name: CF优选-CF11-??
+  - name: CF优选-CF11-HK
     type: vless
-    server: 104.19.240.151
+    server: 103.31.7.57
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -144,7 +144,7 @@ proxies:
         Host: zhulishcn.us.ci
   - name: CF优选-CF12-HK
     type: vless
-    server: 198.41.132.196
+    server: 188.114.99.182
     port: 443
     uuid: 6624c4a7-a0fc-441d-8fc1-f578c66d122b
     tls: true
@@ -165,15 +165,15 @@ proxy-groups:
     proxies:
       - CF优选-CF01-US
       - CF优选-CF02-US
-      - CF优选-CF03-??
-      - CF优选-CF04-HK
-      - CF优选-CF05-??
-      - CF优选-CF06-HK
-      - CF优选-CF07-??
-      - CF优选-CF08-HK
+      - CF优选-CF03-US
+      - CF优选-CF04-US
+      - CF优选-CF05-US
+      - CF优选-CF06-US
+      - CF优选-CF07-US
+      - CF优选-CF08-US
       - CF优选-CF09-HK
-      - CF优选-CF10-??
-      - CF优选-CF11-??
+      - CF优选-CF10-HK
+      - CF优选-CF11-HK
       - CF优选-CF12-HK
 
 # 分流：国内直连，其他走代理

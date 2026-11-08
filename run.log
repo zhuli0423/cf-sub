@@ -1633,3 +1633,33 @@ urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ss
   198.41.132.196 [HK] 延迟 4ms  速度 3950kbps
 [2026-11-08 04:00:23] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-11-08 04:00:27] 已推送到 GitHub
+[2026-11-08 04:00:27] 完成
+[2026-11-09 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 80 个，其中定位美国 8 个
+取前 40 个（美国优先）测下载速度...
+速度可用 39 个
+---- 失败诊断（前几条）----
+  [speed] 188.114.110.114 -> timeout: _ssl.c:1112: The handshake operation timed out
+写入 preferred_ips.txt，共 12 个优选 IP
+  190.93.242.19 [US] 延迟 3ms  速度 4091kbps
+  103.22.202.188 [US] 延迟 4ms  速度 2422kbps
+  108.162.234.169 [US] 延迟 5ms  速度 4121kbps
+  104.16.127.47 [US] 延迟 5ms  速度 3693kbps
+  198.41.255.33 [US] 延迟 6ms  速度 4063kbps
+  162.158.132.15 [US] 延迟 6ms  速度 4170kbps
+  103.22.200.177 [US] 延迟 6ms  速度 4035kbps
+  198.41.231.223 [US] 延迟 7ms  速度 4042kbps
+  197.234.241.143 [HK] 延迟 2ms  速度 4124kbps
+  172.68.239.74 [HK] 延迟 2ms  速度 4042kbps
+  103.31.7.57 [HK] 延迟 2ms  速度 4076kbps
+  188.114.99.182 [HK] 延迟 3ms  速度 4140kbps
+[2026-11-09 04:00:27] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
