@@ -1724,3 +1724,40 @@ urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ss
   173.245.59.64 [HK] 延迟 3ms  速度 4382kbps
 [2026-11-11 04:00:49] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-11-11 04:00:52] 已推送到 GitHub
+[2026-11-11 04:00:52] 完成
+[2026-11-12 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 也失败：URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 53 个，其中定位美国 5 个
+取前 40 个（美国优先）测下载速度...
+速度可用 30 个
+---- 失败诊断（前几条）----
+  [sanity-domain] speed.cloudflare.com -> URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>
+  [trace] 162.159.33.143 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 198.41.159.99 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 141.101.124.65 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 172.64.193.239 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 197.234.242.20 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 131.0.75.87 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [trace] 104.20.197.173 -> timeout: _ssl.c:1112: The handshake operation timed out
+写入 preferred_ips.txt，共 12 个优选 IP
+  104.27.198.168 [US] 延迟 6ms  速度 2252kbps
+  198.41.174.218 [US] 延迟 6ms  速度 3961kbps
+  103.21.244.174 [US] 延迟 7ms  速度 4114kbps
+  172.66.250.206 [HK] 延迟 2ms  速度 4073kbps
+  104.16.173.20 [HK] 延迟 4ms  速度 4105kbps
+  103.21.246.204 [HK] 延迟 4ms  速度 4075kbps
+  141.101.124.65 [??] 延迟 4ms  速度 4148kbps
+  103.21.247.209 [HK] 延迟 4ms  速度 4165kbps
+  104.17.254.55 [HK] 延迟 4ms  速度 4210kbps
+  198.41.224.206 [??] 延迟 5ms  速度 69kbps
+  190.93.247.116 [HK] 延迟 5ms  速度 4144kbps
+  162.159.20.80 [HK] 延迟 5ms  速度 3635kbps
+[2026-11-12 04:02:35] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
