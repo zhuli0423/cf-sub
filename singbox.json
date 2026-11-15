@@ -7,7 +7,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF01-US",
-      "server": "108.162.250.116",
+      "server": "173.245.54.230",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -28,8 +28,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF02-??",
-      "server": "162.158.49.159",
+      "tag": "CF优选-CF02-US",
+      "server": "103.31.6.65",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -50,8 +50,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF03-HK",
-      "server": "197.234.240.198",
+      "tag": "CF优选-CF03-US",
+      "server": "103.22.202.48",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -72,8 +72,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF04-??",
-      "server": "104.27.91.86",
+      "tag": "CF优选-CF04-US",
+      "server": "162.159.179.43",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -94,8 +94,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF05-??",
-      "server": "141.101.86.38",
+      "tag": "CF优选-CF05-US",
+      "server": "103.31.7.81",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -116,8 +116,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF06-HK",
-      "server": "173.245.59.74",
+      "tag": "CF优选-CF06-US",
+      "server": "104.25.228.95",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -138,8 +138,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF07-HK",
-      "server": "198.41.176.183",
+      "tag": "CF优选-CF07-US",
+      "server": "197.234.241.182",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -160,8 +160,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF08-HK",
-      "server": "172.68.27.12",
+      "tag": "CF优选-CF08-US",
+      "server": "103.22.201.164",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -182,8 +182,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF09-HK",
-      "server": "103.31.6.53",
+      "tag": "CF优选-CF09-US",
+      "server": "104.21.176.200",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -204,8 +204,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF10-HK",
-      "server": "108.162.228.66",
+      "tag": "CF优选-CF10-US",
+      "server": "108.162.229.55",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -226,8 +226,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF11-HK",
-      "server": "190.93.251.176",
+      "tag": "CF优选-CF11-US",
+      "server": "162.159.16.195",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -248,8 +248,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF12-HK",
-      "server": "173.245.56.188",
+      "tag": "CF优选-CF12-US",
+      "server": "131.0.72.180",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -273,17 +273,17 @@
       "tag": "🚀 CF优选",
       "outbounds": [
         "CF优选-CF01-US",
-        "CF优选-CF02-??",
-        "CF优选-CF03-HK",
-        "CF优选-CF04-??",
-        "CF优选-CF05-??",
-        "CF优选-CF06-HK",
-        "CF优选-CF07-HK",
-        "CF优选-CF08-HK",
-        "CF优选-CF09-HK",
-        "CF优选-CF10-HK",
-        "CF优选-CF11-HK",
-        "CF优选-CF12-HK"
+        "CF优选-CF02-US",
+        "CF优选-CF03-US",
+        "CF优选-CF04-US",
+        "CF优选-CF05-US",
+        "CF优选-CF06-US",
+        "CF优选-CF07-US",
+        "CF优选-CF08-US",
+        "CF优选-CF09-US",
+        "CF优选-CF10-US",
+        "CF优选-CF11-US",
+        "CF优选-CF12-US"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
