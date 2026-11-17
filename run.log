@@ -1948,3 +1948,34 @@ urllib.error.URLError: <urlopen error [Errno 54] Connection reset by peer>
   141.101.97.238 [US] 延迟 7ms  速度 170kbps
 [2026-11-17 04:01:12] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-11-17 04:01:16] 已推送到 GitHub
+[2026-11-17 04:01:16] 完成
+[2026-11-18 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 也失败：HTTPError: HTTP Error 404: Not Found
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 79 个，其中定位美国 3 个
+取前 40 个（美国优先）测下载速度...
+速度可用 40 个
+---- 失败诊断（前几条）----
+  [sanity-domain] speed.cloudflare.com -> HTTPError: HTTP Error 404: Not Found
+  [trace] 104.27.202.193 -> timeout: _ssl.c:1112: The handshake operation timed out
+写入 preferred_ips.txt，共 12 个优选 IP
+  173.245.52.148 [US] 延迟 4ms  速度 4011kbps
+  173.245.61.168 [US] 延迟 7ms  速度 4059kbps
+  104.21.71.42 [US] 延迟 7ms  速度 3952kbps
+  103.22.203.210 [HK] 延迟 2ms  速度 4105kbps
+  162.159.12.170 [HK] 延迟 4ms  速度 3885kbps
+  104.27.202.193 [??] 延迟 4ms  速度 2287kbps
+  104.23.206.18 [HK] 延迟 4ms  速度 3758kbps
+  188.114.111.190 [HK] 延迟 4ms  速度 4063kbps
+  198.41.255.130 [HK] 延迟 4ms  速度 4082kbps
+  198.41.128.85 [HK] 延迟 4ms  速度 4035kbps
+  103.22.200.59 [HK] 延迟 4ms  速度 3940kbps
+  103.21.244.149 [HK] 延迟 4ms  速度 3911kbps
+[2026-11-18 04:00:25] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
