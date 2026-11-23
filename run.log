@@ -2126,3 +2126,34 @@ urllib.error.URLError: <urlopen error [Errno 54] Connection reset by peer>
   108.162.208.83 [HK] 延迟 6ms  速度 4082kbps
 [2026-11-23 04:00:16] 生成订阅...
 生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
+[2026-11-23 04:00:20] 已推送到 GitHub
+[2026-11-23 04:00:20] 完成
+[2026-11-24 04:00:05] 开始测速...
+获取 Cloudflare 官方 IP 段...
+共 15 个段
+对照：域名方式 HTTPS 下载（应成功）...
+  域名 HTTPS 正常（1000 字节）
+抽样 375 个 IP 测延迟...
+延迟可用 375 个
+取延迟最好的 80 个查定位...
+定位成功 75 个，其中定位美国 7 个
+取前 40 个（美国优先）测下载速度...
+速度可用 39 个
+---- 失败诊断（前几条）----
+  [trace] 173.245.62.89 -> timeout: _ssl.c:1112: The handshake operation timed out
+  [speed] 197.234.243.150 -> SSLError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1129)
+写入 preferred_ips.txt，共 12 个优选 IP
+  197.234.241.74 [US] 延迟 6ms  速度 4077kbps
+  104.26.104.150 [US] 延迟 7ms  速度 4078kbps
+  162.158.67.155 [US] 延迟 7ms  速度 2539kbps
+  103.22.202.94 [US] 延迟 7ms  速度 3838kbps
+  131.0.75.157 [US] 延迟 7ms  速度 4172kbps
+  108.162.198.52 [US] 延迟 7ms  速度 4039kbps
+  197.234.241.11 [US] 延迟 7ms  速度 3927kbps
+  162.159.2.91 [HK] 延迟 2ms  速度 4022kbps
+  141.101.110.68 [HK] 延迟 3ms  速度 4040kbps
+  131.0.75.174 [HK] 延迟 3ms  速度 3861kbps
+  173.245.52.207 [HK] 延迟 3ms  速度 3888kbps
+  190.93.240.81 [HK] 延迟 3ms  速度 2382kbps
+[2026-11-24 04:00:50] 生成订阅...
+生成 sub.txt / clash.yaml / singbox.json，共 12 个节点（美国优先）
