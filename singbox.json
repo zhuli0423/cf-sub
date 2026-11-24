@@ -7,7 +7,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF01-US",
-      "server": "197.234.241.74",
+      "server": "104.19.97.64",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -29,7 +29,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF02-US",
-      "server": "104.26.104.150",
+      "server": "103.21.244.41",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -51,7 +51,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF03-US",
-      "server": "162.158.67.155",
+      "server": "141.101.66.120",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -73,7 +73,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF04-US",
-      "server": "103.22.202.94",
+      "server": "173.245.54.162",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -95,7 +95,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF05-US",
-      "server": "131.0.75.157",
+      "server": "131.0.73.254",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -117,7 +117,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF06-US",
-      "server": "108.162.198.52",
+      "server": "104.19.159.245",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -139,7 +139,7 @@
     {
       "type": "vless",
       "tag": "CF优选-CF07-US",
-      "server": "197.234.241.11",
+      "server": "162.159.9.107",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -160,8 +160,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF08-HK",
-      "server": "162.159.2.91",
+      "tag": "CF优选-CF08-US",
+      "server": "188.114.99.244",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -182,8 +182,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF09-HK",
-      "server": "141.101.110.68",
+      "tag": "CF优选-CF09-US",
+      "server": "103.22.202.92",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -204,8 +204,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF10-HK",
-      "server": "131.0.75.174",
+      "tag": "CF优选-CF10-US",
+      "server": "162.158.87.14",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -226,8 +226,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF11-HK",
-      "server": "173.245.52.207",
+      "tag": "CF优选-CF11-US",
+      "server": "172.70.245.104",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -248,8 +248,8 @@
     },
     {
       "type": "vless",
-      "tag": "CF优选-CF12-HK",
-      "server": "190.93.240.81",
+      "tag": "CF优选-CF12-US",
+      "server": "104.25.187.65",
       "server_port": 443,
       "uuid": "6624c4a7-a0fc-441d-8fc1-f578c66d122b",
       "tls": {
@@ -279,11 +279,11 @@
         "CF优选-CF05-US",
         "CF优选-CF06-US",
         "CF优选-CF07-US",
-        "CF优选-CF08-HK",
-        "CF优选-CF09-HK",
-        "CF优选-CF10-HK",
-        "CF优选-CF11-HK",
-        "CF优选-CF12-HK"
+        "CF优选-CF08-US",
+        "CF优选-CF09-US",
+        "CF优选-CF10-US",
+        "CF优选-CF11-US",
+        "CF优选-CF12-US"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
